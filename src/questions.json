@@ -1,10 +1,4 @@
-const segment = {
-  basic: 'Basic',
-  medium: 'Medium',
-  advanced: 'Advanced',
-};
-
-const quiz = {
+{
   "quizTitle": "AWS SAA-C03 Exam Practice",
   "quizSynopsis": "Practice questions for the AWS Certified Solutions Architect - Associate exam. (First 10 Questions)",
   "questions": [
@@ -1657,6 +1651,4 @@ const quiz = {
     }
     
   ]
-};
-
-export default quiz;
+}
