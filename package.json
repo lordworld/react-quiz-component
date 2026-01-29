@@ -8,7 +8,8 @@
     "dev": "webpack-dev-server --mode development",
     "docs": "webpack --mode production",
     "build": "rollup -c",
-    "lint": "eslint src --ext .jsx --ext .js --fix"
+    "lint": "eslint src --ext .jsx --ext .js --fix",
+    "deploy": "npm run build && npx wrangler deploy"
   },
   "keywords": [
     "react",
